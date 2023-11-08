@@ -1,0 +1,219 @@
+.canva{
+    height:80px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #1b7496;
+   }
+#img1{
+    height: 80px;
+    width: 300px;
+    margin-right: 25px;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=608,fit=crop,q=95/Aq20eV79zLfpXV6b/logo-png-mnl7npnlXjHPl9KV.png");
+    background-size: cover;
+}
+.opt{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 50px;
+    }
+.opt a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    }
+.border{
+    border:2px solid transparent;
+}   
+ .border:hover{
+    border-bottom:3px solid #a52a2a;
+   }
+ .portion1{
+    background-color: #babec8;
+    height: 400px;
+    }
+ .sent{
+    font-size: 20px;
+    color: #a52a2a;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#first1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px;
+}
+ #sec1{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px;
+    }
+ #a1{
+  
+   margin-bottom: 30px;
+   }
+.apply{
+height: 40px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: #92cee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size:20px ;
+    font-weight: 700;
+     }
+.apply:hover{
+    background-color: #095978;
+    color: white;
+}
+/*portion2*/
+.portion2{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    background-color: #E0F4FF;
+
+}
+.left{
+    display: block;
+    color: #0e314c;
+
+}
+#fir2{
+    font-size: 50px;
+    font-weight: 500;
+    padding:20px
+    
+}
+#sec2{
+    height: 100px;
+    width: 700px;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+#third2{
+    height: 30px;
+    width: 100px;
+    background-color: #4286a1;
+    font-weight: 200;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 30px;
+
+}
+.right{
+    height: 600px;
+    width: 800px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  
+    background-image:url("https://th.bing.com/th/id/OIP.BlVCSh9OknLGIOMkq8CdIgHaE8?pid=ImgDet&w=1000&h=667&rs=1");
+    background-size: cover;
+}
+
+.main{
+    background-color:#EBE3D5 ;
+    color: brown;
+   font-size: 40px;
+    font-weight: 700;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    }
+/* .main u{
+   padding-bottom: 20px;
+
+} */
+.portion3{
+   
+    display:flex;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EBE3D5;
+}
+
+#box{
+    height: 400px;
+    width: 25%;
+    margin:10px;
+    background-color: white;
+    background-size: cover;
+    background-color: #EBE3D5;
+     }
+
+
+#img11{
+    background-image: url("https://accelerate.academy/wp-content/uploads/2019/11/Intro-to-Java-Programming.jpg");
+    
+}
+#img2{
+    background-image: url("https://th.bing.com/th/id/R.f684d8fce39fcecce46650d98fcab845?rik=c1OjpGvPbaYStw&riu=http%3a%2f%2fhelixbusiness.net%2fimages%2fservices%2flarge%2f07.jpg&ehk=PP1VqgV9M8KEoUCvbiLmWjlRT%2bZngzUTyZV9nwyFmcQ%3d&risl=&pid=ImgRaw&r=0");
+}
+#img3{
+    background-image: url("https://thumbs.dreamstime.com/b/machine-deep-learning-algorithms-ai-artificial-intelligence-internet-technology-concept-virtual-screen-137115071.jpg");
+}
+#img4{
+    background-image: url("https://miro.medium.com/max/1200/1*RJMxLdTHqVBSijKmOO5MAg.jpeg");
+    margin-left: 10px;
+}
+#img5{
+    background-image: url("https://globaltechboom.com/wp-content/uploads/2020/11/android-1.jpg");
+    margin-left: 30px;
+}
+#img6{
+    background-image: url("https://th.bing.com/th/id/OIP.J4S2aKOF-_g9l14X_LZFHwHaFA?pid=ImgDet&rs=1");
+    margin-left: 40px;
+}
+
+
+
+
+.box_img{
+    height: 300px;
+   background-size: cover;
+   /* margin-left: 10px; */
+   margin-right: 10px;
+   margin-top: 2px;
+}
+.portion3 h1{
+font-size: 30px;
+color:#0e314c;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 2px;
+transition-property: all ;
+}
+
+.foot{
+    height: 60px;
+    font-size: 1.3rem;
+    background-color: #DCBFFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+    }
+#content{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+#foot_content1{
+    margin-right: 5px;
+    
+}
+
