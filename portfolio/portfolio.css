@@ -1,0 +1,138 @@
+
+.main1{
+   
+    background-color: #abb0a8;
+   padding-top: 20px;
+   
+}
+.profile{
+    display:flex;
+}
+#procontent{
+    align-self: center;
+    margin-left: 30px;
+    
+}
+#procontent1{
+    font-size: 25px;
+    font-weight: 400;
+    color: #12486B;
+}
+#procontent2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #3D0C11;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pro{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-image: url("https://www.cascadeenforcement.com/Admin/uploads/vedio-gallery/person-icon-female.jpg");
+    background-size: cover;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-self:center; 
+    position: absolute;
+   right:3%;
+   color:#419197;
+   font-size: 1.2rem;
+   }
+#contact a{
+    margin: 10px;
+    text-decoration: none;
+    color: #183D3D;
+    padding-left: 20px;
+    
+    }
+    #contact:hover{
+          border: 2px #18181a double ;
+    border-radius: 14%;
+  
+    }
+ .second{
+    height: 1000px;
+    background-color: #183D3D;
+    padding:20px;
+    
+} 
+#who1{
+    color: #FFE5E5;
+
+}
+
+#who2{
+font-size: 25px;
+padding: 30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 30px;
+
+}  
+
+#who{
+    padding: 20px;
+   color: #F3FDE8;
+}
+.boxes{
+    display:flex;
+    padding-top: 20px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+  
+}
+.box:hover{ 
+     border: 2px #B9B4C7 double ;
+    border-radius: 20%;
+    background-color: #032727;
+    transition: 20px ease-out 0.2s;
+    
+}
+
+
+.box{
+    /* height:400px;*/
+    width:400px; 
+
+    color:#F3FDE8;
+    font-weight: 300;
+   
+    
+
+}
+
+#boxmain h1{
+    color: #C8AE7D;
+    padding-left: 30px;
+}
+#edu1{
+    padding: 20px;
+    font-size: 18px;
+}
+#edu2{
+    padding: 20px;
+    font-size: 18px;
+}
+#edu3{
+    padding: 20px;
+    font-size: 18px;
+}
+.box li{
+    line-height: 30px;
+    font-size: 18px;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#abb0a8 ;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer div{
+    padding: 7px;
+}
