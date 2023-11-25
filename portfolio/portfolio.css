@@ -1,0 +1,201 @@
+
+.main1{
+   
+    background-color: #abb0a8;
+   padding-top: 20px;
+   
+}
+.profile{
+    display:flex;
+}
+#procontent{
+    align-self: center;
+    margin-left: 30px;
+    
+}
+#procontent1{
+    font-size: 25px;
+    font-weight: 400;
+    color: #12486B;
+}
+#procontent2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #3D0C11;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pro{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-image: url("https://www.cascadeenforcement.com/Admin/uploads/vedio-gallery/person-icon-female.jpg");
+    background-size: cover;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-self:center; 
+    position: absolute;
+   right:3%;
+   color:#419197;
+   font-size: 1.2rem;
+   }
+#contact a{
+    margin: 10px;
+    text-decoration: none;
+    color: #183D3D;
+    padding-left: 20px;
+    
+    }
+    #contact:hover{
+          border: 2px #18181a double ;
+    border-radius: 14%;
+  
+    }
+ .second{
+    height: 1600px;
+    background-color: #183D3D;
+    padding:20px;
+    
+} 
+#who1{
+    color: #FFE5E5;
+
+}
+
+#who2{
+font-size: 25px;
+padding: 30px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 30px;
+
+}  
+
+#who{
+    padding: 20px;
+   color: #F3FDE8;
+}
+.boxes{
+    display:flex;
+    padding-top: 20px;
+    padding-left: 60px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+  
+}
+.box:hover{ 
+     border: 2px #B9B4C7 double ;
+    border-radius: 20%;
+    background-color: #032727;
+    transition: 20px ease-in-out 1s;
+    
+}
+
+
+.box{
+    /* height:400px;*/
+    width:400px; 
+
+    color:#F3FDE8;
+    font-weight: 300;
+   
+    
+
+}
+
+#boxmain h1{
+    color: #C8AE7D;
+    padding-left: 30px;
+}
+#edu1{
+    padding: 20px;
+    font-size: 18px;
+}
+#edu2{
+    padding: 20px;
+    font-size: 18px;
+}
+#edu3{
+    padding: 20px;
+    font-size: 18px;
+}
+.box li{
+    line-height: 30px;
+    font-size: 18px;
+}
+.down{
+    
+}
+
+
+#down1  {
+   padding-left: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+.down a{
+    color: #abb0a8;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#downpic1{
+    height:300px;
+   width:500px;
+    background-image: url("https://contentwriting101.com/wp-content/uploads/2020/09/Build-Your-Portfolio-768x480.png");
+    background-size: cover;
+    margin:0px 40px 0px 30px;
+   
+    border-radius: 10%;
+    position: absolute;
+    right: 80px;
+}
+#downpic2{
+    height:300px;
+   width:500px;
+    background-image: url("https://th.bing.com/th/id/OIP.82s83GwMS2tvwSqQ2jmwOwHaFS?w=918&h=656&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    margin:100px 40px 0px 30px;
+   
+    border-radius: 10%;
+    position: absolute;
+    left: 80px;
+    
+}
+who1 {
+ height: 30px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.download a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 20px;
+    color: #6B240C;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#82867f ;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer div{
+    padding: 7px;
+    color: #073737;
+}
